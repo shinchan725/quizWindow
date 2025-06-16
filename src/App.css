@@ -1,0 +1,280 @@
+.container {
+  
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.heading-breadcrumbs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  background-Color: '#d5d4d4'
+}
+
+
+.heading-breadcrumbs .user-info {
+  display: flex;
+  align-items: center;
+  grid-template-rows:auto;
+  max-Width: 100%; 
+  padding: 1%; 
+  border: 2px solid #666; 
+  height: 7rem;
+  width: 8% 
+}
+
+.container .user-info .picture {
+
+  width: 100%;
+   padding: 1%;
+   border: 2px solid #666;
+   height: 100%
+}
+
+ .container .user-info .details{
+  display: grid;
+  grid-template-rows: 30%;
+  padding: 1%;
+  margin-left: 1%;
+  justify-content: space-between;
+  width: fit-content;
+
+
+ }
+
+
+
+
+
+
+.question {
+  margin-top: 2%;
+}
+
+.question h2 {
+  font-size: 2%;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1%;
+}
+
+.question .options {
+  margin-top: 10px;
+  
+}
+
+.question .options input[type="radio"] {
+  margin-right: 1%;
+}
+
+.question .options label {
+  display: block;
+  margin-bottom: 1%;
+}
+
+.buttons {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 1% 2%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 100%;
+}
+
+
+
+.buttons button.mark {
+  background-color: #008CBA;
+}
+
+
+.navigation {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation button {
+  margin-top: 5%;
+  padding: 1% 2%;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+
+
+.navigation button.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.navigation button.back {
+  background-color: #f44336;
+  color: white;
+}
+
+
+.status {
+  margin-top: 5%;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.status .status-item {
+  display: flex;
+  align-items: center;
+}
+
+
+.status .status-item .icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.status .status-item .icon.visited {
+  background-color: #999;
+}
+
+.status .status-item .icon.answered {
+  background-color: #4CAF50;
+}
+
+.status .status-item .icon.marked {
+  background-color: #008CBA;
+}
+
+.status .status-item .icon.not-answered {
+  background-color: #f44336;
+}
+
+
+
+.question-number {
+  margin-top: 1%;
+  font-size: 100%;
+  font-weight: bold;
+  color: #333;
+}
+
+.question h2{
+  font-size: 100%;
+}
+
+.question-number .description {
+  display: inline-block;
+}
+
+
+
+.submit-button {
+  margin-top: 5%;
+    padding: 1% 2%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 100%;
+    width: 100%;
+}
+
+.print-button {
+  margin-top: 5%;
+    padding: 1% 2%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.grid-container {
+  
+  overflow-y: scroll;
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); 
+  gap: 1%; 
+}
+
+.grid-item {
+  background-color: #ccc;
+  padding: 1px;
+  text-align: center;
+  border-radius: 25%;
+}
+
+
+#A{
+  background-Color: green;
+  padding: 1px;
+  text-Align: center;
+  width: 20%;
+  clip-Path: polygon(0% 0%, 100% 30%, 100% 70%, 0% 100%)
+}
+
+#NV{
+  background-Color: #ccc;
+  padding: 1px;
+  text-Align: center;
+  border-Radius: 25%;
+  width: 20%
+}
+
+#NA{
+  background-Color: red;
+  padding: 1px;
+  text-Align: center;
+  width: 20%;
+  clip-Path: polygon(0% 0%, 100% 30%, 100% 70%, 0% 100%)
+}
+
+#MR{
+  background-Color: purple;
+  padding: 1px;
+  text-Align: center;
+  width: 20%;
+  margin-Top: 3%;
+  border-Radius: 100%;
+}
+
+#AM{
+  background-Color: violet;
+  padding: 1px;
+  text-Align: center;
+  width: 10%;
+  border-Radius: 100%;
+}
+
+
+
+
+
+
+
+/* #6328E0 */
