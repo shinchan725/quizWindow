@@ -1,0 +1,13 @@
+This is not the complete backend as some of the ADVANCE querry and functionality files like 
+
+      - env files
+      - prisma files
+      - swagger api files
+      - correlation files
+      - core files
+      - xlsx date files
+      - postgre sql config files
+      - excel seervices files
+
+were either directly uploaded by senior backend engineer of the company or were stored in Docker 
+and were NOT developed(coded) by ME are not present in the server folder (due to piracy and confidential issues.)
